@@ -1,0 +1,46 @@
+
+div {
+    border: solid black 1px;
+}
+.inpakkning{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.header{
+    flex-basis: 100%;
+    height: 10%;
+    
+}
+.sidemeny{
+    flex flex-basis:100%;
+    height: 89%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.inhold{
+    flex-basis: 80%;
+height: 80%;
+display: flex;
+flex-direction: column;
+}
+.bilde{
+    align-items: center;
+    justify-content: flex-start;
+}
+.tekst{
+    flex-basis: 60%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+    
+}
+.stigm{
+width: 45%;
+}
